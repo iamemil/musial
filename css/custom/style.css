@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,600");
+.mainWrapper {
+  background-color: #0D1436;
+  font-family: 'Lato', sans-serif;
+}
+
+.mainWrapper .container-fluid {
+  padding: 0;
+}
+
+.mainWrapper .container-fluid .navigation,
+.mainWrapper .container-fluid .navigation-mobile,
+.mainWrapper .container-fluid .bg-navigation-dark {
+  background-color: #181b40;
+}
+
+.mainWrapper .container-fluid .navigation a.nav-link,
+.mainWrapper .container-fluid .navigation-mobile a.nav-link,
+.mainWrapper .container-fluid .bg-navigation-dark a.nav-link {
+  color: #bbb0c9;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.mainWrapper .container-fluid .navigation a.nav-link:hover,
+.mainWrapper .container-fluid .navigation-mobile a.nav-link:hover,
+.mainWrapper .container-fluid .bg-navigation-dark a.nav-link:hover {
+  color: #e8e3e3;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.mainWrapper .container-fluid .navigation .nav-playlists p,
+.mainWrapper .container-fluid .navigation-mobile .nav-playlists p,
+.mainWrapper .container-fluid .bg-navigation-dark .nav-playlists p {
+  color: #bbb0c9;
+}
+
+.mainWrapper .container-fluid .navigation .nav-playlists a.nav-link,
+.mainWrapper .container-fluid .navigation-mobile .nav-playlists a.nav-link,
+.mainWrapper .container-fluid .bg-navigation-dark .nav-playlists a.nav-link {
+  font-weight: 300;
+}
+
+.mainWrapper .container-fluid .navigation {
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
