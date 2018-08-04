@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600');
+
+
+$whitecolor: #bbb0c9;
 .mainWrapper{
     background-color: #0D1436;
     font-family: 'Lato', sans-serif;
@@ -9,11 +12,11 @@
         .bg-navigation-dark{
             background-color: #181b40;
             a.nav-link{
-                color: #bbb0c9;
+                color: $whitecolor;
                 font-weight: 600;
                 transition: all 0.5s ease;
                 &:hover{
-                    color: #e8e3e3;
+                    filter: brightness(1.3);
                     transition: all 0.5s ease;
                 }
             }
@@ -30,4 +33,23 @@
             height: 100vh;
         }
     }
+}
+.song-table{
+        color: $whitecolor;
+        font-size: 14px;
+        font-weight: 300;
+        thead th,
+        td{
+            border: 0;
+            
+        }
+        tr.song{
+            transition: all 0.5s ease;
+            &:hover{
+                background-color: #090e27;
+                transition: all 0.5s ease;
+                transform: scale(1.01);
+            }
+        }
+
 }
