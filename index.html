@@ -31,13 +31,14 @@
                             </nav>
                         </div>
                         <div class="nav-playlists pt-5">
-                                <p class="pl-5">Playlists</h3>
-                                    <nav class="nav flex-column">
-                                        <a class="nav-link pl-5" href="#">Classic</a>
-                                        <a class="nav-link pl-5" href="#">GYM Session</a>
-                                        <a class="nav-link pl-5" href="#"><i class="icon ion-md-add"></i> New Playlist</a>
-                                    </nav>
-                                </div>
+                            <p class="pl-5">Playlists</h3>
+                                <nav class="nav flex-column">
+                                    <a class="nav-link pl-5" href="#">Classic</a>
+                                    <a class="nav-link pl-5" href="#">GYM Session</a>
+                                    <a class="nav-link pl-5" href="#">
+                                        <i class="icon ion-md-add"></i> New Playlist</a>
+                                </nav>
+                        </div>
                     </div>
                 </div>
                 <nav class="navbar navbar-dark bg-navigation-dark">
@@ -67,57 +68,271 @@
                             <nav class="nav flex-column">
                                 <a class="nav-link pl-5" href="#">Classic</a>
                                 <a class="nav-link pl-5" href="#">GYM Session</a>
-                                <a class="nav-link pl-5" href="#"><i class="icon ion-md-add"></i> New Playlist</a>
+                                <a class="nav-link pl-5" href="#">
+                                    <i class="icon ion-md-add"></i> New Playlist</a>
                             </nav>
-                        </div>
+                    </div>
                 </div>
                 <div class="col-md-10 pt-5">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6">
-                                    <div class="song-table">
-                                            <table class="table">
-                                                    <thead>
-                                                      <tr>
-                                                        <th scope="col"></th>
-                                                        <th scope="col"></th>
-                                                        <th scope="col">Song</th>
-                                                        <th scope="col">Artist</th>
-                                                        <th scope="col">Album</th>                                                      </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                      <tr class="song" data-song-id="1">
-                                                        <td><i class="icon ion-md-arrow-down"></i></td>
-                                                        <td><i class="icon ion-md-information-circle-outline"></i></td>
-                                                        <td>Rockstar</td>
-                                                        <td>Post Malone</td>
-                                                        <td>beerbongs & bentleys</td>                                                      </tr>
-                                                      <tr class="song" data-song-id="2">
-                                                        <td><i class="icon ion-md-arrow-down"></i></td>
-                                                        <td><i class="icon ion-md-information-circle-outline"></i></td>
-                                                        <td>Cookin' With The President</td>
-                                                        <td>x0nit</td>
-                                                        <td>Cookin' With The President - Single</td>
-                                                      </tr>
-                                                      <tr class="song" data-song-id="3">
-                                                        <td><i class="icon ion-md-arrow-down"></i></td>
-                                                        <td><i class="icon ion-md-information-circle-outline"></i></td>
-                                                        <td>Pəncərə</td>
-                                                        <td>Dəyirman</td>
-                                                        <td>Pəncərə - Single</td>
-                                                      </tr>
-                                                      <tr class="song" data-song-id="4">
-                                                        <td><i class="icon ion-md-arrow-down"></i></td>
-                                                        <td><i class="icon ion-md-information-circle-outline"></i></td>
-                                                        <td>Listen to Your Heart</td>
-                                                        <td>MiyaGi & Эндшпиль</td>
-                                                        <td>Hajime, Pt. 3</td>
-                                                    </tr>
-                                                    </tbody>
-                                                  </table>
+                            <div class="col-md-12">
+                                <div class="song-table">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col">Song</th>
+                                                <th scope="col">Artist</th>
+                                                <th scope="col">Album</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="song" data-song-id="1">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Rockstar</td>
+                                                <td>Post Malone</td>
+                                                <td>beerbongs & bentleys</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="2">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Cookin' With The President</td>
+                                                <td>x0nit</td>
+                                                <td>Cookin' With The President - Single</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="3">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Pəncərə</td>
+                                                <td>Dəyirman</td>
+                                                <td>Pəncərə - Single</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="4">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Listen to Your Heart</td>
+                                                <td>MiyaGi & Эндшпиль</td>
+                                                <td>Hajime, Pt. 3</td>
+                                            </tr>
+                                            <tr class="song" data-song-id="5">
+                                                <td>
+                                                    <i class="icon ion-md-arrow-down"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon ion-md-information-circle-outline"></i>
+                                                </td>
+                                                <td>Ad Günü</td>
+                                                <td>Miri Yusif</td>
+                                                <td>RastAman</td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="track-player fixed-bottom">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-1 d-flex align-items-center">
+                                                <img class="song-album-photo" src="https://i.scdn.co/image/8b502f849c562d3a8287560609bd95817b8bb878" alt="">
+                                            </div>
+                                            <div class="col-md-3 d-flex flex-column align-self-center pl-0 text-white">
+                                                <p class="song-title">Ad Günü</p>
+                                                <p class="song-author-album">Miri Yusif -- RastAman</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="song-progressbar"></div>
+                                                <div class="song-control-buttons"></div>
+                                            </div>
+                                        </div>
                                     </div>
+                                </div>
                             </div>
-                            <div class="col-md-6"></div>
+
                         </div>
                     </div>
                 </div>
@@ -129,9 +344,10 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+    <script type="text/javascript" src="http://cdn.embed.ly/player-0.1.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
